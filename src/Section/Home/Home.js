@@ -270,14 +270,14 @@ const Home = (props) => {
             <div className="sm:w-1/2">
               <div className="pt-4 flex flex-col items-start justify-start  ml-12">
                 <a
-                  href={resume}
+                  href={resume2}
                   download="IbsharResume"
                   className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                 >
                   Resume
                 </a>
               </div>
-              <div className="pt-4 flex flex-col items-start justify-start  ml-12 ">
+              {/* <div className="pt-4 flex flex-col items-start justify-start  ml-12 ">
                 <a
                   href={resume2}
                   download="IbsharResume"
@@ -285,7 +285,7 @@ const Home = (props) => {
                 >
                   CV
                 </a>
-              </div>
+              </div> */}
               <h1
                 className="text-black text-right self-end mr-2 text-2xl sm:text-6xl "
                 style={{
